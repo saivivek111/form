@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="May17.css">
+   
+ 
+</head>
+<body>
+    <div class="form-style-5">
+       <form>
+         <fieldset> <!--group related elements in the form , disabled attribute,legend is caption for fieldset-->
+           <legend><span class="number">1</span> Candidate Info</legend>
+            <input type="text" placeholder="Your Name *" required>
+            <input type="email" placeholder="Your Email *" required> 
+            <textarea  placeholder="About Yourself"></textarea> 
+            <label for="job">Interests</label> 
+            <select id="job">
+                <optgroup label="Indoors">
+                    <option>Chess</option>
+                    <option>Carrroms</option>
+                    <option>Reading</option>
+                    <option>Boxing</option>
+                    <option>Debate</option>
+                    <option>Snooker</option>
+                    <option>Video games</option>
+                </optgroup>
+                <optgroup label="Outdoors">
+                    <option>Cricket</option>
+                    <option>Football</option>
+                    <option>Volleyball</option>
+                    <option>Basketball</option>
+                    <option>Hockey</option>
+                    <option>Swimming</option>
+                    <option>Baseball </option>
+                </optgroup>
+            </select>
+         </fieldset>
+         <fieldset>
+             <legend><span class="number">2</span> Additional Info</legend>
+             <textarea placeholder="about your school"></textarea>
+            
+         </fieldset>
+         <input type="submit">
+       </form>
+    </div>
+</body>
+</html>

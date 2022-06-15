@@ -1,0 +1,63 @@
+div{
+    background-color: #f4f7f8;
+    max-width: 500px;
+    padding: 10px 20px;
+    margin:auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ div fieldset{
+     border:none;
+ }
+ div legend{
+      font-size: 1.4em;  /*scalar level , normal text is 1, enhances by 1.4 */
+
+ }
+ div label{
+     margin-bottom: 8px;
+    
+ }
+input[type=text],input[type=email],textarea,select{
+  padding:5px;
+  margin:0;
+  margin-bottom:20px;
+  border-radius: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background:rgb(255, 255,255 );
+  border: none;
+  border-radius: 4px;
+  width:100%;
+  outline: 0;
+  background-color: #e8eeef;
+  color:#8a97a0
+  /* box-shadow:5px 5px 10px #888888; not supporting here*/
+}
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus,
+select:focus{
+    background: #d2d9dd;
+}
+span{
+    background-color: #1abc9c;
+    color:#fff;
+    height:30px;
+    width:20px;
+    font-size: 0.8em;
+    line-height: 30px;
+}
+input[type=submit]{
+    padding:19px 39px 18px 39px;
+    color: #fff;
+    background: #1abc9c;
+    font-size: 20px;
+    text-align:center;
+    font-style:normal;
+    width:100%;
+    border-width:1px 2px;
+     ;
+    /* margin-bottom: 10px; */
+
+}
+input[type=submit]:hover{
+    background:#8a97a0;
+}
